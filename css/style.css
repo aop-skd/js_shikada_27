@@ -1,0 +1,123 @@
+
+body{
+    text-align: center;
+    margin-top:40px;
+    margin-bottom:40px;
+    font-family: 'Noto Sans JP', sans-serif;    
+    font-family: 'Open Sans', sans-serif;
+}
+/* 全体の余白設定 */
+
+.tytle{
+    width: 700px;
+    margin: auto;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Amatic SC', cursive;
+}
+/* タイトル部分 */
+
+.TextTyping span {
+    display: none;
+  }
+  
+  /*文字列後ろの線の設定*/
+  .TextTyping::after {
+    content: "|";
+    animation: typinganime .8s ease infinite;
+  }
+  
+  @keyframes typinganime{
+    from{opacity:0}
+    to{opacity:1}
+  }
+/* タイピング部分設定 */
+
+.main_body{
+    width:700px;
+    margin: auto;
+    padding-top:30px;
+    padding-bottom:10px;
+}
+
+.explanation{
+    font-size: 20px;
+    line-height: 2;
+    margin-bottom: 50px;
+    font-family: 'Noto Sans JP', sans-serif; 
+    font-weight: bold;   
+}
+
+.question{
+    border-bottom: dotted;
+    border-width:2px;
+    font-size: 25px;
+
+}
+/* 説明文部分 */
+
+.f_text{
+    font-size: 20px;
+    line-height: 2;
+    margin-bottom:100px;
+    font-family: 'Noto Sans JP', sans-serif;    
+}
+/* 最初の問い部分 */
+
+.text{
+    font-size: 20px;
+    line-height: 2;
+    margin-bottom:100px;
+    font-family: 'Noto Sans JP', sans-serif;    
+}
+/* 問い共通部分 */
+
+.text_box{
+    display: flex;
+    justify-content: center;
+}
+/* 選択肢のフレックスボックス */
+
+
+.result_image{
+    width: 500px;
+    margin: auto;
+    height:300px;
+
+}
+
+img{
+    width:100%;
+    border: 10px solid white;
+    
+}
+/* 結果の写真設定 */
+
+.result{
+    font-size: 36px;
+    font-weight: bold;
+
+
+}
+/* 結果の内容設定 */
+
+.footer{
+    width:700px;
+    height:80px;
+    padding-top:30px;
+    margin: auto;
+    background-color:darkgray;
+    font-size: 50px;
+    font-family: 'Amatic SC', cursive;
+}
+/* footerの設定 */
+
+input[type=radio] {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+
+}
+/* ラジオボタン設定 */ß
